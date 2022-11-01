@@ -23,3 +23,4 @@
 # "6. Закончить работу")
 # choice = int(input())
 # return choice
+# 
