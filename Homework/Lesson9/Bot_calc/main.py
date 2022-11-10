@@ -6,7 +6,7 @@ from bot_commands import *
 #     await update.message.reply_text(f'Hello {update.effective_user.first_name}')
 
 
-app = ApplicationBuilder().token("5580170538:AAHkEaFTjlNJ-qZ4WSs4TVAPVH3r2phEknA").build()
+app = ApplicationBuilder().token("TOKEN").build()
 
 app.add_handler(CommandHandler("hi", hi_command))
 app.add_handler(CommandHandler("time", time_command))
